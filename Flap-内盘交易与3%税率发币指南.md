@@ -247,31 +247,21 @@ function newTaxTokenWithVault(NewTaxTokenWithVaultParams calldata params) extern
 
 ## 四、BNB Chain 常用合约地址汇总
 
-以下地址以 [Deployed Contract Addresses（Token Launcher）](https://docs.flap.sh/flap/developers/token-launcher-developers/deployed-contract-addresses) 为准。
+以下地址与官方 [Deployed Contract Addresses](https://docs.flap.sh/flap/developers/token-launcher-developers/deployed-contract-addresses) 一致。
 
-### 4.1 主网 (Mainnet)
+### 4.1 Mainnet（主网）
 
-| 用途 | 地址 | 版本 |
-|------|------|------|
-| Portal（交易 + 无金库发币） | `0xe2cE6ab80874Fa9Fa2aAE65D277Dd6B8e65C9De0` | v5.8.6 |
-| Standard Token Impl | `0x8b4329947e34b6d56d71a3385cac122bade7d78d` | — |
-| Tax Token V1 Impl | `0x29e6383F0ce68507b5A72a53c2B118a118332aA8` | — |
-| Tax Token V2 Impl | `0xae562c6A05b798499507c6276C6Ed796027807BA` | — |
-| Vanity Suffix | standard: 8888，Tax: 7777 | — |
+| Chain | Portal | Version | Standard Token Impl | Tax Token V1 impl | Tax Token V2 | Vanity Suffix |
+|-------|--------|---------|---------------------|------------------|-------------|---------------|
+| BNB Chain | `0xe2cE6ab80874Fa9Fa2aAE65D277Dd6B8e65C9De0` | v5.8.6 | `0x8b4329947e34b6d56d71a3385cac122bade7d78d` | `0x29e6383F0ce68507b5A72a53c2B118a118332aA8` | `0xae562c6A05b798499507c6276C6Ed796027807BA` | standard:8888<br>Tax: 7777 |
 
-VaultPortal（带金库发币）主网：`0x90497450f2a706f1951b5bdda52B4E5d16f34C06`（见 [Flap Tax Vault](https://docs.flap.sh/flap/developers/vault-developers/flap-tax-vault#deployed-addresses)）。
+### 4.2 Testnet（测试网）
 
-### 4.2 测试网 (Testnet)
+| Chain | Portal | Version | Standard Token Impl | Tax Token V1 impl | Tax Token V2 | Vanity Suffix |
+|-------|--------|---------|---------------------|------------------|-------------|---------------|
+| BNB Testnet | `0x5bEacaF7ABCbB3aB280e80D007FD31fcE26510e9` | v5.8.5 | `0x87D5f292ba33011997641C7a7Bd2b17799aaA814` | `0x87d8D03d0c3E064ACdb48E42fecbE8a8538dE6Fc` | `0x2486e3ff5502bac48D2D86457e7c24B2bB0dDDb5` | standard:8888<br>Tax: 7777 |
 
-| 用途 | 地址 | 版本 |
-|------|------|------|
-| Portal（交易 + 无金库发币） | `0x5bEacaF7ABCbB3aB280e80D007FD31fcE26510e9` | v5.8.5 |
-| Standard Token Impl | `0x87D5f292ba33011997641C7a7Bd2b17799aaA814` | — |
-| Tax Token V1 Impl | `0x87d8D03d0c3E064ACdb48E42fecbE8a8538dE6Fc` | — |
-| Tax Token V2 Impl | `0x2486e3ff5502bac48D2D86457e7c24B2bB0dDDb5` | — |
-| Vanity Suffix | standard: 8888，Tax: 7777 | — |
-
-VaultPortal 测试网：`0x027e3704fC5C16522e9393d04C60A3ac5c0d775f`（见 [Flap Tax Vault](https://docs.flap.sh/flap/developers/vault-developers/flap-tax-vault#deployed-addresses)）。
+**VaultPortal**（带金库发币）：主网 `0x90497450f2a706f1951b5bdda52B4E5d16f34C06`，测试网 `0x027e3704fC5C16522e9393d04C60A3ac5c0d775f`（见 [Flap Tax Vault](https://docs.flap.sh/flap/developers/vault-developers/flap-tax-vault#deployed-addresses)）。
 
 ---
 

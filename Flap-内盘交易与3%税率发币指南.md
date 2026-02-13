@@ -66,6 +66,7 @@
 | 链接 | 说明 |
 |------|------|
 | [Vault Developers](https://docs.flap.sh/flap/developers/vault-developers) | 金库开发入口 |
+| [Deployed Contract Addresses (Vault)](https://docs.flap.sh/flap/developers/vault-developers/deployed-contract-addresses) | 各链 Portal / 实现合约（与 Launcher 表一致） |
 | [Flap Tax Vault](https://docs.flap.sh/flap/developers/vault-developers/flap-tax-vault) | 金库规范、VaultPortal、VaultFactory、税率与手续费 |
 
 ---

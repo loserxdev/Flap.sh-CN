@@ -129,8 +129,8 @@ if (taxRateBps == 0) {
 
 ---
 
-## 四、相关链接
+## 四、相关链接与地址（与官方一致）
 
 - [Flap Tax Vault 官方文档](https://docs.flap.sh/flap/developers/vault-developers/flap-tax-vault)
-- BNB 主网 Portal：`0xe2cE6ab80874Fa9Fa2aAE65D277Dd6B8e65C9De0`
-- BNB 主网 Guardian：`0x9e27098dcD8844bcc6287a557E0b4D09C86B8a4b`
+- **Portal**：BNB 主网 `0xe2cE6ab80874Fa9Fa2aAE65D277Dd6B8e65C9De0`，BNB 测试网 `0x5bEacaF7ABCbB3aB280e80D007FD31fcE26510e9`
+- **Guardian**：BNB 主网 `0x9e27098dcD8844bcc6287a557E0b4D09C86B8a4b`，BNB 测试网 `0x76Fa8C526f8Bc27ba6958B76DeEf92a0dbE46950`（见 VaultBase 代码）
